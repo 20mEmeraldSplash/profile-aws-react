@@ -1,6 +1,9 @@
 import React from "react";
 import logo from '../../../img/icon/sos_icon.png';
+import smile_icon from '../../../img/icon/HeaderBarIcons/smile.png';
+
 import RotateImage from '../../RotateImage/RotateImage';
+import IconTextButton from "../../IconTextButton/IconTextButton";
 import "./MainPage.css";
 
 export default function MainPage() {
@@ -12,9 +15,12 @@ export default function MainPage() {
           imageWidth = "150px"
           imageHeight = "150px"
         />
-        <h1>Hello from V2</h1>
-        
       </header>
+      <IconTextButton 
+          buttonIcon = {smile_icon}
+          buttonText = "WHO AM I?"
+          linkedPage = "/profile"
+      />
     </div>
   );
 }

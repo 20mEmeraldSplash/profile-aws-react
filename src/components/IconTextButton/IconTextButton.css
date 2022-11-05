@@ -1,0 +1,13 @@
+.IconTextButtonContainer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.IconTextButtonDivider{
+    width: 15px;
+}
+.IconTextButton-Text{
+    font-size: 18px;
+    color: black;
+}
