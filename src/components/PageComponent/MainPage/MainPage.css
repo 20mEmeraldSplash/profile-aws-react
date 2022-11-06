@@ -1,6 +1,12 @@
+
 .MainPage{
     text-align: center;
     background-color: #E9EFF2;
+    /*
+    background-image: url("../../../img/backgroundImages/background-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    */
     min-height: calc(100vh - 50px);
     max-height: calc(100vh - 50px);
     display: flex;

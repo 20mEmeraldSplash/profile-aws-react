@@ -19,12 +19,14 @@ export default function MainPage() {
             buttonIcon = {smile_icon}
             buttonText = "WHO AM I?"
             linkedPage = "/profile"
+            iconLeftSide = {true}
           />
           <div className="row-right">
             <IconTextButton 
               buttonIcon = {chat_icon}
-              buttonText = "我还没想好"
+              buttonText = "CONTACT ME"
               linkedPage = "/"
+              iconLeftSide = {true}
             />
           </div>
           
@@ -32,6 +34,7 @@ export default function MainPage() {
             buttonIcon = {payment_icon}
             buttonText = "要吃饭不磕碜"
             linkedPage = "/"
+            iconLeftSide = {true}
           />
         </div>
 
@@ -47,20 +50,23 @@ export default function MainPage() {
           <div className="row-right">
             <IconTextButton 
               buttonIcon = {web_icon}
-              buttonText = "没想好"
+              buttonText = "MY PROJECTS"
               linkedPage = "/"
+              iconLeftSide = {false}
             />
           </div>
           <IconTextButton 
             buttonIcon = {cloudy_icon}
             buttonText = "也没想好"
             linkedPage = "/"
+            iconLeftSide = {false}
           />
           <div className="row-right">
             <IconTextButton 
               buttonIcon = {smile_icon}
               buttonText = "我也没想好"
               linkedPage = "/"
+              iconLeftSide = {false}
             />
           </div>
         </div>
