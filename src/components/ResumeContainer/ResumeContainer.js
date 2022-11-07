@@ -1,6 +1,7 @@
 import React from "react";
 import chesspattern from "../../img/boarderImages/chess-pattern.png";
 import heart from "../../img/boarderImages/heart.png";
+import chimitan from "../../img/icon/chimitan.jpeg";
 import './ResumeContainer.css';
 
 export default function ResumeContainer() {
@@ -16,6 +17,11 @@ export default function ResumeContainer() {
           </div>
         </div>
 
+        <div className="ProfileImageRow">
+            <img src={chimitan} alt="profile" height="100%" />
+            <img src={chimitan} alt="profile" height="100%" />
+        </div>
+            
       </div>
     </div>
   );
