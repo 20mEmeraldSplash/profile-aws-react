@@ -16,6 +16,7 @@ export default function HeaderBar(){
                         width = '25px'
                         height = '25px'
                         alt="home-icon"
+                        className="header-bar-icons"
                     />
                 </Link>
                 <Link to='/profile'>

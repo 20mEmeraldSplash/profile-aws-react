@@ -9,12 +9,16 @@
 }
 .header-bar-links{
     padding-left: 30px;
-    width: 80px;
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .header-bar-links>a{
     color: #fff;
     text-decoration: none;
+}
+.header-bar-icons{
+    margin-right: 50px;
 }
