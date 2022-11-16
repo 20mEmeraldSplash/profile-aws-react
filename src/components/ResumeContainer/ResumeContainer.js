@@ -5,7 +5,7 @@ import chimitan from "../../img/icon/chimitan.jpeg";
 import gyro from "../../img/icon/Gyro.jpg";
 import './ResumeContainer.css';
 
-import { Card, CardBody, CardHeader, CardText, CardTitle } from 'reactstrap';
+import { Card, CardBody } from 'reactstrap';
 
 export default function ResumeContainer() {
   return (

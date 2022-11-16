@@ -1,0 +1,32 @@
+{
+    "Briefs" : [
+        {
+            "id": "1",
+            "content": "Application developer consultant with 3+ years of hands-on experience designing, developing and implementing web applications and solutions using a range of technologies and programming languages."
+        },
+        {
+            "id": "2",
+            "content": "Front-end development of desktop and web applications using HTML5, CSS3, SASS, JavaScript, TypeScript, React JS, Angular."
+        },
+        {
+            "id": "3",
+            "content": "Experience with Agile methodologies/SCRUM working environment, front- end development using Agile methodology."
+        },
+        {
+            "id": "4",
+            "content": "Experience with both large- and small-scale web projects with a full project lifecycle."
+        },
+        {
+            "id": "5",
+            "content": "Experience with GIT source control, Jira..."
+        },
+        {
+            "id": "6",
+            "content": "Coordinating with both the UI & visual designers and back-end developers."
+        },
+        {
+            "id": "7",
+            "content": "In-depth knowledge of cross-browser compatibility and optimization techniques."
+        }
+    ]
+}
