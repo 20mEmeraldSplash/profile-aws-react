@@ -1,13 +1,20 @@
 .ProfilePage{
     text-align: center;
-    align-items: center;
     justify-content: center;
     background-color: #E9EFF2;
     min-height: calc(100vh - 50px);
-    max-height: calc(100vh - 50px);
+    max-height: 100%;
     display: flex;
     flex-direction: row;
     font-size: calc(10px + 2vmin);
     color: black;
     padding: 20px;
+    scroll-behavior: smooth;
+    
+}
+.ResumeCol{
+    padding-top: 30px;
+    max-width: 600px !important;
+    display: flex;
+    flex-direction: column;
 }
