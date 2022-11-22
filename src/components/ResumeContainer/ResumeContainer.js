@@ -22,16 +22,7 @@ export default function ResumeContainer() {
 
         <div className="ProfileImageRow">
             <img src={gyro} alt="profile" className="ProfileImage"/>
-            <Card
-                style={
-                    {
-                        width: '60%',
-                        height: '100%',
-                        border: '1px solid black'
-                    }
-                }
-                className="ProfileInformationCard"
-            >
+            <Card className="ProfileInformationCard">
                 <CardBody className="ProfileInformationCardBody">
                     <div className="ProfileInformationCardHeader"></div>
                     <div className="ProfileInformationCardContent">

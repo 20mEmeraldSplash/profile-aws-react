@@ -10,11 +10,48 @@
     color: black;
     padding: 20px;
     scroll-behavior: smooth;
+    justify-content: space-between;
     
+}
+.LeftCol {
+    width: calc((100vw - 600px)/2);
+    padding-top:30px !important;
+    padding-left: 20px !important;
+    padding-right: 30px !important;
+}
+.RightCol{
+    width: calc((100vw - 600px)/2);
+    padding-top:30px !important;
+    padding-left: 30px !important;
+    padding-right: 20px !important;
 }
 .ResumeCol{
     padding-top: 30px;
     max-width: 600px !important;
     display: flex;
     flex-direction: column;
+}
+.SkillSetHidden{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1700px) {
+    .ProfilePage {
+        justify-content: center;
+    }
+    .ResumeCol {
+      width: 100%;
+    }
+    .LeftCol {
+        display: none;
+    }
+    .RightCol {
+        display: none;
+    }
+    .SkillSetHidden{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
 }
