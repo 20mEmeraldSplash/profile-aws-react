@@ -39,6 +39,14 @@ export default class SkillSetContainer extends Component {
                     <div className='SkillName'> GitHub </div>
                     <div className='SkillBar1' style={{width: '50%'}}></div>
                 </div>
+                <div className='SkillRow'>
+                    <div className='SkillName'> Adobe XD </div>
+                    <div className='SkillBar2' style={{width: '50%'}}></div>
+                </div>
+                <div className='SkillRow'>
+                    <div className='SkillName'> Digital Painting </div>
+                    <div className='SkillBar3' style={{width: '50%'}}></div>
+                </div>
                 
             </div>
         );

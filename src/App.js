@@ -9,6 +9,7 @@ import {
 import "./App.css";
 
 import MainPage from './components/PageComponent/MainPage/MainPage'
+import UpdateMainPage from './components/PageComponent/UpdateMainPage/UpdateMainPage';
 import ProfilePage from './components/PageComponent/ProfilePage/ProfilePage'
 import HeaderBar from './components/HeaderBar/HeaderBar'
 
@@ -23,7 +24,7 @@ function App() {
           </div>
           <div className='App-Page'>
             <Routes>
-              <Route path='/' exact element={<MainPage />} />
+              <Route path='/' exact element={<UpdateMainPage />} />
               <Route path='/profile' element={<ProfilePage />} />
             </Routes>
           </div>
