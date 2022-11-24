@@ -1,0 +1,160 @@
+.MainPageContainer{
+    background-color: #E9EFF2;
+    min-height: calc(100vh - 50px);
+    height: 1030px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+/* CSS for left side of Main Page */
+.MainPageContainer-Left{
+    display: flex;
+    height: 100%;
+    width: 55%;
+    padding-right: 10px;
+    flex-direction: column;
+}
+/* CSS for left side Row 1 */
+.Left-Row1{
+    width: 100%;
+    height: 180px;
+    background-color: #F0A274;
+    margin-bottom: 20px;
+}
+/* CSS for left side Row 2 */
+.Left-Row2{
+    width: 100%;
+    height: 550px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.Left-Row2-Col1{
+    width: 30px;
+    height: 100%;
+    background-color: #F0A274;
+    margin-right: 20px;
+}
+.Left-Row2-Col2{
+    width: calc(100% - 590px - 30px);
+    height: 100%;
+    background-color: #FAE69F;
+    margin-right: 20px;
+}
+.Left-Row2-Col3{
+    width: 550px;
+    height: 100%;
+    background-color: #7DC0D1;
+}
+/* CSS for left side Row 3 */
+.Left-Row3{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+}
+.Left-Row3-Col1{
+    width: calc(100% - 450px);
+    height: 100%;
+    background-color: #F0A274;
+    margin-right: 20px;
+}
+.Left-Row3-Col2{
+    width: 450px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Left-Row3-Col2-Row1{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.Left-Row3-Col2-Row1-Col1{
+    width: 100px !important;
+    height:100%;
+    background-color: #1D7E8F;
+}
+.Left-Row3-Col2-Row1-Col2{
+    width: calc(100% - 100px);
+    height:100%;
+    margin-left: 20px;
+    background-color: #F0A274;
+}
+.Left-Row3-Col2-Row2{
+    width: calc(100% + 620px);
+    height: 60px;
+    background-color: #FAE69F;
+}
+
+
+
+/* CSS for right side of Main Page */
+.MainPageContainer-Right{
+    display: flex;
+    height: 100%;
+    width: 45%;
+    padding-left: 10px;
+    flex-direction: column;
+}
+/* CSS for right side Row 1 */
+.Right-Row1{
+    width: 100%;
+    height: 230px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Right-Row1-Col{
+    width: calc((100% - 40px)/3);
+    height: 100%;
+    background-color: #1D7E8F;
+}
+/* CSS for right side Row 2 */
+.Right-Row2{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.Right-Row2-Col1{
+    width: 600px;
+    height: calc(100% - 80px);
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Right-Row2-Col1-Row13{
+    width: 100%;
+    height: 22%;
+    background-color: #F0A274;
+}
+.Right-Row2-Col1-Row2{
+    width: 100%;
+    height: calc(56% - 40px);
+    display: flex;
+    flex-direction: row;
+}
+.Right-Row2-Col1-Row2-Col1{
+    /* aspect-ratio: 1; */
+    width: 60%;
+    height: 100%;
+    margin-right: 20px;
+    background-color: #7DC0D1;
+}
+.Right-Row2-Col1-Row2-Col2{
+    width: calc(40% - 20px);
+    height: 100%;
+    background-color: #7DC0D1;
+}
+.Right-Row2-Col2{
+    width: calc(100% - 620px);
+    height: 100%;
+    background-color: #F0A274;
+}
