@@ -16,11 +16,12 @@
     flex-direction: column;
 }
 /* CSS for left side Row 1 */
-.Left-Row1{
+.WebTitleContainer{
     width: 100%;
     height: 180px;
     background-color: #F0A274;
     margin-bottom: 20px;
+    padding: 10px;
 }
 /* CSS for left side Row 2 */
 .Left-Row2{
@@ -42,10 +43,14 @@
     background-color: #FAE69F;
     margin-right: 20px;
 }
-.Left-Row2-Col3{
+.Who-Am-I-Card{
     width: 550px;
     height: 100%;
     background-color: #7DC0D1;
+}
+.Who-Am-I-Card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
 }
 /* CSS for left side Row 3 */
 .Left-Row3{
@@ -85,10 +90,10 @@
     margin-left: 20px;
     background-color: #F0A274;
 }
-.Left-Row3-Col2-Row2{
+.GitHubLinkContainer{
     width: calc(100% + 620px);
     height: 60px;
-    background-color: #FAE69F;
+    background-color: #1D7E8F;
 }
 
 
