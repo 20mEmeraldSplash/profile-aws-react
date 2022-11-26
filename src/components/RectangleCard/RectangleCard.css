@@ -2,7 +2,7 @@
     font-family: AntonRegular;
     src: url(../../fonts/Anton-Regular.ttf);
 }
-.LinkedCard-Container{
+.actionCard-Container{
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -12,7 +12,7 @@
     color: #FAE69F;
     align-items: flex-end;
 }
-.LinkedCard-Text{
+.actionCard-Text{
     width: 100%;
     display: flex;
     flex-direction: row;
