@@ -6,7 +6,7 @@ import "./RectangleCard.css";
 export default class RectangleCard extends Component{
     render(){
         const rows = [];
-        if(this.props.cardStyle === "linkedCard"){
+        if(this.props.cardStyle === "actionCard"){
             rows.push(
                 <div 
                     style={{
@@ -14,11 +14,13 @@ export default class RectangleCard extends Component{
                         height: "100%", 
                         backgroundRepeat: "no-repeat",
                         backgroundSize: "cover",
+                        backgroundPosition: "center",
+                        backgroundSize: `${this.props.backgroundImageSize}`
                     }}
-                    className="LinkedCard-Container"
+                    className="actionCard-Container"
                 >
-                    <Link to={this.props.linkedPage} style={{ textDecoration: 'none' }} className="LinkedCard-Text">
-                        <div className="LinkedCard-Text">
+                    <Link to={this.props.linkedPage} style={{ textDecoration: 'none' }} className="actionCard-Text">
+                        <div className="actionCard-Text">
                             {this.props.titleContent}
                         </div>
                     </Link>  
