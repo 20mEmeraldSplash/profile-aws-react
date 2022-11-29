@@ -16,62 +16,62 @@
     flex-direction: column;
 }
 /* CSS for left side Row 1 */
-.WebTitleContainer{
+.LeftTop{
     width: 100%;
-    height: 180px;
+    height: 200px;
     background-color: #F0A274;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 20px;
 }
 /* CSS for left side Row 2 */
-.Left-Row2{
+.LeftMid{
     width: 100%;
-    height: 550px;
+    height: 510px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
 }
-.Left-Row2-Col1{
-    width: 30px;
+.LeftMid-Left{
+    width: 80px;
     height: 100%;
     background-color: #F0A274;
     margin-right: 20px;
 }
-.Left-Row2-Col2{
-    width: calc(100% - 590px - 30px);
+.LeftMid-Mid{
+    width: calc(100% - 550px - 80px);
     height: 100%;
     background-color: #FAE69F;
     margin-right: 20px;
 }
-.Who-Am-I-Card{
-    width: 550px;
+.LeftMid-Right{
+    width: 510px;
     height: 100%;
     background-color: #7DC0D1;
 }
-.Who-Am-I-Card:hover {
+.LeftMid-Right:hover {
     transform: scale(1.03);
     box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
 }
 /* CSS for left side Row 3 */
-.Left-Row3{
+.LeftBottom{
     width: 100%;
-    height: 180px;
+    height: 200px;
     display: flex;
     flex-direction: row;
 }
-.Left-Row3-Col1{
+.LeftBottom-Left{
     width: calc(100% - 450px);
     height: 100%;
     background-color: #F0A274;
     margin-right: 20px;
 }
-.Left-Row3-Col2{
+.LeftBottom-Right{
     width: 450px;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
-.Left-Row3-Col2-Row1{
+.LeftBottom-Right-Top{
     width: 100%;
     height: 100px;
     margin-bottom: 20px;
@@ -79,16 +79,16 @@
     flex-direction: row;
     
 }
-.DownloadButton{
+.LeftBottom-Right-Top-Left{
     width: 100px !important;
     height:100%;
     background-color: #1D7E8F;
 }
-.DownloadButton:hover {
+.LeftBottom-Right-Top-Left:hover {
     transform: scale(1.03);
     box-shadow: 0 13px 40px -5px hsla(240, 30.1%, 28%, 0.12), 0 8px 32px -8px hsla(0, 0%, 0%, 0.14), 0 -6px 32px -6px hsla(0, 0%, 0%, 0.02);
 }
-.Left-Row3-Col2-Row1-Col2{
+.LeftBottom-Right-Top-Right{
     width: calc(100% - 120px);
     height:100%;
     margin-left: 20px;
@@ -96,7 +96,7 @@
 }
 .GitHubLinkContainer{
     width: calc(100% + 620px);
-    height: 60px;
+    height: 80px;
     background-color: #1D7E8F;
 }
 
@@ -111,58 +111,58 @@
     flex-direction: column;
 }
 /* CSS for right side Row 1 */
-.Right-Row1{
+.RightTop{
     width: 100%;
-    height: 230px;
+    height: 260px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.Right-Row1-Col{
+.RightTop-Col{
     width: calc((100% - 40px)/3);
     height: 100%;
     background-color: #1D7E8F;
 }
 /* CSS for right side Row 2 */
-.Right-Row2{
+.RightBottom{
     width: 100%;
     height: 700px;
     display: flex;
     flex-direction: row;
 }
-.Right-Row2-Col1{
+.RightBottom-Left{
     width: 600px;
-    height: calc(100% - 80px);
+    height: calc(100% - 100px);
     margin-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.Right-Row2-Col1-Row13{
+.RightBottom-Left-Top{
     width: 100%;
-    height: 22%;
+    height: 160px;
     background-color: #F0A274;
 }
-.Right-Row2-Col1-Row2{
+.RightBottom-Left-Middle{
     width: 100%;
-    height: calc(56% - 40px);
+    height: 220px;
     display: flex;
     flex-direction: row;
 }
-.Right-Row2-Col1-Row2-Col1{
+.RightBottom-Left-Middle-Left{
     /* aspect-ratio: 1; */
     width: 60%;
     height: 100%;
     margin-right: 20px;
     background-color: #7DC0D1;
 }
-.Right-Row2-Col1-Row2-Col2{
+.RightBottom-Left-Middle-Right{
     width: calc(40% - 20px);
     height: 100%;
     background-color: #7DC0D1;
 }
-.Right-Row2-Col2{
+.RightBottom-Right{
     width: calc(100% - 620px);
     height: 100%;
     background-color: #F0A274;
