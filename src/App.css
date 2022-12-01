@@ -2,13 +2,13 @@
   flex-direction: row;
 }
 .App-Header{
-  max-height: 50px !important;
-  min-height: 50px !important;
+  max-height: 80px !important;
+  min-height: 80px !important;
   align-items: center;
   display: flex;
 }
 .App-Page{
-  max-height: calc(100vh - 50px) !important;
-  min-height: calc(100vh - 50px) !important;
+  max-height: calc(100vh - 80px) !important;
+  min-height: calc(100vh - 80px) !important;
 }
 
