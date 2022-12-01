@@ -13,8 +13,8 @@ export default function HeaderBar(){
                 <Link to='/'>
                     <img 
                         src={home}
-                        width = '25px'
-                        height = '25px'
+                        width = '40px'
+                        height = '40px'
                         alt="home-icon"
                         className="header-bar-icons"
                     />
@@ -22,8 +22,8 @@ export default function HeaderBar(){
                 <Link to='/profile'>
                     <img 
                         src={happy}
-                        width = '25px'
-                        height = '25px'
+                        width = '40px'
+                        height = '40px'
                         alt="happy-icon"
                     />
                 </Link>
