@@ -84,7 +84,7 @@ export default function UpdateMainPage(){
                             <div className="RightBottom-Left-Middle-Left"></div>
                             <div className="RightBottom-Left-Middle-Right"></div>
                         </div>
-                        <div className="RightBottom-Left-Top"></div>
+                        <div className="RightBottom-Left-Bottom"></div>
                     </div>
                     <div className="RightBottom-Right"></div>
                 </div>
