@@ -1,6 +1,7 @@
 import React from "react";
 import "./UpdateMainPage.css";
 
+import MainPageTitle from "./MainPageTitle/MainPageTitle";
 import RectangleCard from "../../RectangleCard/RectangleCard";
 import dio from "../../../img/backgroundImages/dio.png";
 import download_icon from "../../../img/icon/ButtonIcons/download.png";
@@ -11,14 +12,7 @@ export default function UpdateMainPage(){
         <div className="MainPageContainer">
             <div className="MainPageContainer-Left">
                 <div className="LeftTop">
-                    <RectangleCard 
-                        cardStyle = "solidCard"
-                        titleContent = "SECRET BASE ~ YICHEN"
-                        backgroundColor = "#1D7E8F"
-                        textColor = "#FAE69F"
-                        fontSize = "100px"
-                        linkedAddress = ""
-                    />
+                    <MainPageTitle />
                 </div>
                 <div className="LeftMid">
                     <div className="LeftMid-Left"></div>
