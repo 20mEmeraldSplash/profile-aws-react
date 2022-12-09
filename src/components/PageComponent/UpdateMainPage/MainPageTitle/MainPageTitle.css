@@ -1,0 +1,21 @@
+@font-face {
+    font-family: PressStart2P-Regular;
+    src: url(../../../../fonts/PressStart2P-Regular.ttf);
+}
+.main-Page-Title-Container{
+    height: 210px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background: url("../../../../img/backgroundImages/background-4.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+    font-family: PressStart2P-Regular;
+    color: white;
+    padding: 40px 20% 40px 20%;
+    
+}
