@@ -8,7 +8,7 @@
     background-image: url("../../../../img/MainPage/background.png");
     background-position: right bottom;
     background-repeat: no-repeat; 
-    background-size: 100%;
+    background-size: 90%;
 }
 
 .nameSection{
@@ -26,3 +26,19 @@
 a:link { text-decoration: none; }
 a:hover { font-weight: bold; }
 
+.logoSection{
+    width: 70%;
+}
+
+@media only screen and (max-width: 912px) {
+    .MainPageContainer{
+        width: 100vw;
+        height: 100vh;
+    }
+    .nameSection{
+        font-size: 2vw;
+    }
+    .logoSection{
+        width: 65vw;
+    }
+}

@@ -18,8 +18,8 @@ export default function MagazineMainPage(){
             <section>
                 <img
                     src={Logo}
-                    height = '70px'
-                    alt="birth-icon"
+                    className="logoSection"
+                    alt="logo"
                 ></img>
             </section>
             
