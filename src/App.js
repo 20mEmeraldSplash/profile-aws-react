@@ -9,7 +9,8 @@ import {
 import "./App.css";
 
 import MainPage from './components/PageComponent/MainPage/MainPage'
-import UpdateMainPage from './components/PageComponent/UpdateMainPage/UpdateMainPage';
+//import UpdateMainPage from './components/PageComponent/UpdateMainPage/UpdateMainPage';
+import MagazineMainPage from './components/PageComponent/Magazine/MainPage/MagazineMainPage';
 import ProfilePage from './components/PageComponent/ProfilePage/ProfilePage'
 import HeaderBar from './components/HeaderBar/HeaderBar'
 
@@ -19,12 +20,9 @@ function App() {
     <div>
       <Router>
         <div className='App'>
-          <div className='App-Header'>
-            <HeaderBar />
-          </div>
           <div className='App-Page'>
             <Routes>
-              <Route path='/' exact element={<UpdateMainPage />} />
+              <Route path='/' exact element={<MagazineMainPage />} />
               <Route path='/profile' element={<ProfilePage />} />
             </Routes>
           </div>
