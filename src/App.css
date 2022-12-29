@@ -10,5 +10,9 @@
 .App-Page{
   max-height: calc(100vh - 80px) !important;
   min-height: calc(100vh - 80px) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(227, 227, 227);
 }
 
