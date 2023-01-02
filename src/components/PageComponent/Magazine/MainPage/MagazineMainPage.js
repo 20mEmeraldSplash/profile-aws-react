@@ -22,7 +22,14 @@ export default function MagazineMainPage(){
                     alt="logo"
                 ></img>
             </section>
-            
+            <section className="menuSection">
+                <Link to='/menu'>
+                    <div className="menuEnglish">目&nbsp; &nbsp; 录</div> 
+                </Link>
+                <Link to='/menu'>
+                    <div className="menuChinese">MENU</div> 
+                </Link>
+            </section>
         </article>
     )
 }
