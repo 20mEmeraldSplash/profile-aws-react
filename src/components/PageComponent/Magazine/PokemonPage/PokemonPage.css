@@ -1,0 +1,11 @@
+.PokemonPageContainer{
+    width: 390px;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    aspect-ratio: 70 / 93;
+    background-position: right bottom;
+    background-repeat: no-repeat; 
+    background-size: 90%;
+    color: white;
+}

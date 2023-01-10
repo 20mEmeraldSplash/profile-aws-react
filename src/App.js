@@ -12,7 +12,8 @@ import MainPage from './components/PageComponent/MainPage/MainPage'
 //import UpdateMainPage from './components/PageComponent/UpdateMainPage/UpdateMainPage';
 import MagazineMainPage from './components/PageComponent/Magazine/MainPage/MagazineMainPage';
 import MagazineMenuPage from './components/PageComponent/Magazine/MenuPage/MagazineMenuPage';
-import ProfilePage from './components/PageComponent/ProfilePage/ProfilePage'
+import ProfilePage from './components/PageComponent/ProfilePage/ProfilePage';
+import PokemonPage from './components/PageComponent/Magazine/PokemonPage/PokemonPage';
 import HeaderBar from './components/HeaderBar/HeaderBar'
 
 
@@ -26,6 +27,7 @@ function App() {
               <Route path='/' exact element={<MagazineMainPage />} />
               <Route path='/menu' element={<MagazineMenuPage />} />
               <Route path='/profile' element={<ProfilePage />} />
+              <Route path='/pokemon' element={<PokemonPage />} />
             </Routes>
           </div>
         </div>
