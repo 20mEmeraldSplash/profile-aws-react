@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./MagazineMenuPage.css";
 
+import PokemonPage from "../PokemonPage/PokemonPage";
+
 export default function MagazineMenuPage(){
     return(
         <article className="MenuPageContainer">
@@ -18,7 +20,7 @@ export default function MagazineMenuPage(){
                 </section>
                 <section className="menuLine">
                     <div>Chapter II</div>
-                    <div>Chapter II</div>
+                    <Link to='/pokemon' >Pokemon Menu</Link>
                 </section>
             </section>
         </article>
